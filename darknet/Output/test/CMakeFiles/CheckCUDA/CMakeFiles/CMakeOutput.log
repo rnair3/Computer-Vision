@@ -1,0 +1,117 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/1/2019 11:46:59 AM.
+Project "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCUDA.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /I. /FIcuda_runtime.h /c C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+Project "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1) is building "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  cmd.exe /C "C:\Users\rnair3\AppData\Local\Temp\4\tmpa1a5d5d815d443608e11f76ae6ea9b6d.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc141.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc141.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  CMakeCUDACompilerId.cu
+Done Building Project "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64" cudart.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 Debug\CMakeCUDACompilerId.cu.obj
+  CompilerIdCUDA.vcxproj -> C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\.\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCUDA.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate".
+Done Building Project "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\3.16.0\CompilerIdCUDA\CompilerIdCUDA.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.39
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/3.16.0/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Determining if the CUDA compiler works passed with the following output:
+Change Dir: C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3c73b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Compiling CUDA source file main.cu...
+  
+  C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_3c73b.dir\Debug\vc141.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_3c73b.dir\Debug\main.obj "C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\main.cu" 
+  main.cu
+     Creating library C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_3c73b.lib and object C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_3c73b.exp
+  cmTC_3c73b.vcxproj -> C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_3c73b.exe
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f3bf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Compiling CUDA source file ..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.16\Modules\CMakeCUDACompilerABI.cu...
+  
+  C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_f3bf3.dir\Debug\vc141.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_f3bf3.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCUDACompilerABI.cu" 
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]
+LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]
+     Creating library C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_f3bf3.lib and object C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_f3bf3.exp
+  cmTC_f3bf3.vcxproj -> C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_f3bf3.exe
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f3bf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework]
+  ignore line: [Copyright (C) Microsoft Corporation. All rights reserved.]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\..\..\..\Program Files\CMake\share\cmake-3.16\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30 code=\"sm_30 compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_f3bf3.dir\Debug\vc141.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_f3bf3.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]]
+  ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+  ignore line: [ ignored [C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_f3bf3.vcxproj]]
+  ignore line: [     Creating library C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_f3bf3.lib and object C:/darknet/Output/test/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_f3bf3.exp]
+  ignore line: [  cmTC_f3bf3.vcxproj -> C:\darknet\Output\test\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_f3bf3.exe]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

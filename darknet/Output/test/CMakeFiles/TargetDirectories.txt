@@ -1,0 +1,6 @@
+C:/darknet/Output/test/CMakeFiles/dark.dir
+C:/darknet/Output/test/CMakeFiles/uselib.dir
+C:/darknet/Output/test/CMakeFiles/INSTALL.dir
+C:/darknet/Output/test/CMakeFiles/darknet.dir
+C:/darknet/Output/test/CMakeFiles/ALL_BUILD.dir
+C:/darknet/Output/test/CMakeFiles/ZERO_CHECK.dir
