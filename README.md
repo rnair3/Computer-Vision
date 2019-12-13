@@ -33,3 +33,19 @@ Our labels were then applied to the predicted class bounding boxes, resulting in
 This is an example of a multi-class approach.  In reality, it would also be possible to train this model to recognize generalizable classes like detergent, axes, pesticide, etc.  Images having these classes would then be extracted from their bounding boxes using the corresponding coordinates, then fed into a feature detector/image search algorithm that could detect the similarity between these images and the corresponding Lowes product. 
 
 Lowes has provided us with their catalog images and their corresponding names based on their online catalog.  This dataset could be used as the search dataset for input into a SIFT-like similarity detector.  An index could be created based on similarity that would match an extracted image with its corresponding product. 
+
+##Running YOLO:
+#Requirements:
+-CMake >= 3.8
+-CUDA >= 10.0
+-OpenCV >= 2.4
+-cuDNN >= 7.0 for CUDA 10.0
+-GPU with CC >= 3.0
+(For more info: https://github.com/AlexeyAB/darknet)
+
+#Steps to execute YOLO:
+-Open command prompt
+-Go to execution->darknet->x64
+-Run command: darknet.exe detector test data/obj.data yolov3-tiny_obj.cfg yolov3-tiny_obj_last.weights
+-You can select any image file in data folder to try out YOLO
+-Open command prompt
