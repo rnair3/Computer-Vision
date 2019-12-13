@@ -35,7 +35,7 @@ This is an example of a multi-class approach.  In reality, it would also be poss
 Lowes has provided us with their catalog images and their corresponding names based on their online catalog.  This dataset could be used as the search dataset for input into a SIFT-like similarity detector.  An index could be created based on similarity that would match an extracted image with its corresponding product. 
 
 ## Running YOLO:
-# Requirements:
+###### Requirements:
 - CMake >= 3.8
 - CUDA >= 10.0
 - OpenCV >= 2.4
@@ -43,7 +43,7 @@ Lowes has provided us with their catalog images and their corresponding names ba
 - GPU with CC >= 3.0
 (For more info: https://github.com/AlexeyAB/darknet)
 
-#Steps to execute YOLO:
+###### Steps to execute YOLO:
 - Open command prompt
 - Go to execution->darknet->x64
 - Run command: darknet.exe detector test data/obj.data yolov3-tiny_obj.cfg yolov3-tiny_obj_last.weights
