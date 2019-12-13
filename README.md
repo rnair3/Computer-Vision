@@ -46,5 +46,5 @@ Lowes has provided us with their catalog images and their corresponding names ba
 ###### Steps to execute YOLO:
 - Open command prompt
 - Go to execution->darknet->x64
-- Run command: darknet.exe detector test data/obj.data yolov3-tiny_obj.cfg yolov3-tiny_obj_last.weights
+- Run command: darknet.exe detector test data/obj.data yolov3-tiny_obj.cfg yolov3-tiny_obj_last.weights(In Linux: Replace darknet.exe with ./darknet)
 - You can select any image file in data/obj folder to try out YOLO
